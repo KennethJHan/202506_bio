@@ -1,0 +1,13 @@
+##fileformat=VCFv4.2
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	Proband	Mother	Father
+chr1	1234567	.	G	A	.	PASS	.	GT	0/1	0/0	0/1
+chr2	2345678	.	C	T	.	PASS	.	GT	0/1	0/1	0/1
+chr3	3456789	.	T	G	.	PASS	.	GT	0/0	0/1	0/0
+chr4	4567890	.	A	C	.	PASS	.	GT	0/1	0/1	1/1
+chr5	5678901	.	G	T	.	PASS	.	GT	1/1	0/1	1/1
+chr6	6789012	.	T	C	.	PASS	.	GT	1/1	0/1	0/0
+chr7	7890123	.	A	G	.	PASS	.	GT	0/0	0/0	0/0
+chr8	8901234	.	C	A	.	PASS	.	GT	0/1	0/1	0/0
+chr9	9012345	.	G	C	.	PASS	.	GT	0/1	1/1	0/0
+chrX	65824986	.	C	T	.	PASS	.	GT	1/1	1/1	1/1
